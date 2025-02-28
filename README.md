@@ -82,9 +82,14 @@ This application follows a modern Node.js backend architecture with:
 
 ### Setup Steps
 
+The repo is on GitHub but is private, as I thought it would respect Invent.ai's privacy of coding test case.
+
+With that being said, I will give access to any GitHub user from Invent if requested. Alternatively, the uploaded zip file contains everything necessary.
+
 1. **Clone the repository**
    ```bash
    git clone git@github.com:canguven/library-mgmt-backend-min.git
+
    cd library-mgmt-backend-min
    ```
 
@@ -247,11 +252,6 @@ You can also import the `Library Case API Collection.postman_collection.json` fi
 
 - **Linting**: Run `npm run lint` to check for code quality issues
 - **Fixing lint issues**: Run `npm run lint:fix` to automatically fix issues
-
-### Building
-
-- **Development build**: `npm run build:dev`
-- **Production build**: `npm run build:prod`
 
 ## Future Possible Improvements
 
